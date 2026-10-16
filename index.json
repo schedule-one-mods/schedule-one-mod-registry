@@ -5,14 +5,14 @@
     {
       "id": "businesses",
       "name": "Businesses",
-      "author": "Pratik",
+      "author": "Dekode1859",
       "summary": "View business deposits and countdowns from your phone.",
       "repository": "https://github.com/schedule-one-mods/schedule-one-business-app",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "package_name": "Businesses",
-      "download_url": "https://github.com/schedule-one-mods/schedule-one-business-app/releases/download/v0.1.3/Businesses-0.1.3-IL2CPP.zip",
-      "sha256": "14387f963aeb17fb386c44d72c18533d789a3546729ce2ebaefcae70b1b144f9",
-      "size_bytes": 24474,
+      "download_url": "https://github.com/schedule-one-mods/schedule-one-business-app/releases/download/v0.1.4/Businesses-0.1.4-IL2CPP.zip",
+      "sha256": "484442d3ee1ed6ffd5f5dae771de59babfd5ef56d33ec3ed813152755ee928a0",
+      "size_bytes": 24695,
       "compatibility": {
         "game": "Schedule I",
         "game_versions_tested": [
@@ -33,14 +33,14 @@
     {
       "id": "deal-locations",
       "name": "Deal Locations",
-      "author": "Pratik",
+      "author": "Dekode1859",
       "summary": "Choose phone deal locations on the native map, with four bookings per destination per game day. Single-player.",
       "repository": "https://github.com/schedule-one-mods/schedule-one-deal-locations",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "package_name": "DealLocations",
-      "download_url": "https://github.com/schedule-one-mods/schedule-one-deal-locations/releases/download/v0.1.3/DealLocations-0.1.3-IL2CPP.zip",
-      "sha256": "2aa4d06566c4078f7b9cb64433d9d2f4061a5f65a6b8f930c92ec418a9d37b47",
-      "size_bytes": 23671,
+      "download_url": "https://github.com/schedule-one-mods/schedule-one-deal-locations/releases/download/v0.1.4/DealLocations-0.1.4-IL2CPP.zip",
+      "sha256": "61f6b6e416eb0811792519bc2894a6aecf8a26e41405dbf9d009d65649b6b264",
+      "size_bytes": 23794,
       "compatibility": {
         "game": "Schedule I",
         "game_versions_tested": [
