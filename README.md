@@ -2,7 +2,7 @@
 
 The community-maintained index consumed by [Schedule I Mod Manager](https://github.com/schedule-one-mods/schedule-one-manager). Mod source and release ZIPs stay in their authors' repositories. This repository contains metadata only.
 
-The client fetches [`index.json`](index.json) from:
+The client fetches [`index.json`](index.json) from the main branch through GitHub Contents API (`https://api.github.com/repos/schedule-one-mods/schedule-one-mod-registry/contents/index.json?ref=main`, raw media type), with this raw-file URL as a fallback:
 
 `https://raw.githubusercontent.com/schedule-one-mods/schedule-one-mod-registry/main/index.json`
 
