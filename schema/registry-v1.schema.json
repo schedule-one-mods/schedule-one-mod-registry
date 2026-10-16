@@ -37,7 +37,7 @@
         "repository": {"type": "string", "pattern": "^https://github\\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"},
         "version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
         "package_name": {"type": "string", "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$"},
-        "download_url": {"type": "string", "maxLength": 500, "pattern": "^https://github\\.com/[^/]+/[^/]+/releases/download/v[0-9]+\\.[0-9]+\\.[0-9]+/[^/?#]+\\.zip$"},
+        "download_url": {"type": "string", "maxLength": 500, "pattern": "^https://github\\.com/[^/]+/[^/]+/releases/download/v[0-9]+\\.[0-9]+\\.[0-9]+/[A-Za-z0-9][A-Za-z0-9._-]*\\.zip$"},
         "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
         "size_bytes": {"type": "integer", "minimum": 1, "maximum": 67108864},
         "compatibility": {"$ref": "#/$defs/compatibility"}
