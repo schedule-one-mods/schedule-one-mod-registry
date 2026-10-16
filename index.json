@@ -1,0 +1,34 @@
+{
+  "$schema": "./schema/registry-v1.schema.json",
+  "schema_version": 1,
+  "mods": [
+    {
+      "id": "businesses",
+      "name": "Businesses",
+      "author": "Pratik",
+      "summary": "View business deposits and countdowns from your phone.",
+      "repository": "https://github.com/schedule-one-mods/schedule-one-business-app",
+      "version": "0.1.3",
+      "package_name": "Businesses",
+      "download_url": "https://github.com/schedule-one-mods/schedule-one-business-app/releases/download/v0.1.3/Businesses-0.1.3-IL2CPP.zip",
+      "sha256": "14387f963aeb17fb386c44d72c18533d789a3546729ce2ebaefcae70b1b144f9",
+      "size_bytes": 24474,
+      "compatibility": {
+        "game": "Schedule I",
+        "game_versions_tested": [
+          "0.4.7f5"
+        ],
+        "scripting_backend": "IL2CPP",
+        "platforms_tested": [
+          "Windows x64"
+        ],
+        "loader": {
+          "name": "MelonLoader",
+          "versions_tested": [
+            "0.7.3"
+          ]
+        }
+      }
+    }
+  ]
+}
