@@ -34,7 +34,7 @@
       "id": "special-mixing-terminal",
       "name": "Special Mixing Terminal",
       "author": "Dekode1859",
-      "summary": "Program four mixing stations with native employee routes and ingredient filters. Output to storage, packaging stations or a brick press.",
+      "summary": "Program one to four mixing stations with native employee routes and ingredient filters. Output to storage, packaging stations or a brick press.",
       "repository": "https://github.com/schedule-one-mods/schedule-one-special-mixing-terminal",
       "package_name": "SpecialMixingTerminal",
       "release_source": {
