@@ -57,6 +57,34 @@
           ]
         }
       }
+    },
+    {
+      "id": "special-mixing-terminal",
+      "name": "Special Mixing Terminal",
+      "author": "Dekode1859",
+      "summary": "Program four mixing stations with native handler routes, chemist assignments and ingredient filters from a purchasable terminal.",
+      "repository": "https://github.com/schedule-one-mods/schedule-one-special-mixing-terminal",
+      "version": "0.5.2",
+      "package_name": "SpecialMixingTerminal",
+      "download_url": "https://github.com/schedule-one-mods/schedule-one-special-mixing-terminal/releases/download/v0.5.2/SpecialMixingTerminal-0.5.2-IL2CPP.zip",
+      "sha256": "2027374e681a1f0396d7555ff5fb24bd402d2852dee7fd26c672a6ed46cd08de",
+      "size_bytes": 46809,
+      "compatibility": {
+        "game": "Schedule I",
+        "game_versions_tested": [
+          "0.4.7f5"
+        ],
+        "scripting_backend": "IL2CPP",
+        "platforms_tested": [
+          "Windows x64"
+        ],
+        "loader": {
+          "name": "MelonLoader",
+          "versions_tested": [
+            "0.7.3"
+          ]
+        }
+      }
     }
   ]
 }
