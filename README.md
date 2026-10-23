@@ -1,6 +1,6 @@
 # Schedule I Mod Registry
 
-The community-maintained directory consumed by [Schedule I Mod Manager](https://github.com/schedule-one-mods/schedule-one-manager). This repository registers mod identities and release discovery rules. Source and packages stay in each author's public repository.
+The community-maintained directory consumed by [Schedule I Mod Manager](https://github.com/schedule-one-mods/schedule-one-manager). Use [Mod Manager 0.1.5 or newer](https://github.com/schedule-one-mods/schedule-one-manager/releases/tag/v0.1.5) for this schema-v2 registry. This repository registers mod identities and release discovery rules. Source and packages stay in each author's public repository.
 
 Schema **2** has one entry per mod: stable `id`, `package_name`, display metadata, repository, and `release_source`. All current entries use GitHub Releases. `release_source.latest: github_latest` delegates the latest marker to the author's GitHub Latest release, avoiding a stale hardcoded version in the index. The index does not enumerate release numbers. It rejects the old schema rather than maintaining a second format.
 
