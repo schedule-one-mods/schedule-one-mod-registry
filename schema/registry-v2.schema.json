@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/schedule-one-mods/schedule-one-mod-registry/main/schema/registry-v2.schema.json",
+  "title": "Schedule I mod registry v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "mods"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schema_version": {
+      "const": 2
+    },
+    "mods": {
+      "type": "array",
+      "maxItems": 1000,
+      "items": {
+        "$ref": "#/$defs/mod"
+      }
+    }
+  },
+  "$defs": {
+    "mod": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "author",
+        "summary",
+        "repository",
+        "package_name",
+        "release_source"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]{0,63}$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "author": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "repository": {
+          "type": "string",
+          "pattern": "^https://github\\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"
+        },
+        "package_name": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$"
+        },
+        "release_source": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "latest",
+            "compatibility_path",
+            "asset_name"
+          ],
+          "properties": {
+            "type": {
+              "const": "github_releases"
+            },
+            "latest": {
+              "const": "github_latest"
+            },
+            "compatibility_path": {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9_-]+(/[A-Za-z0-9_-]+)*\\.json$"
+            },
+            "asset_name": {
+              "const": "{package_name}-{version}-{backend}.zip"
+            }
+          }
+        }
+      }
+    }
+  }
+}

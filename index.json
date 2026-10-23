@@ -1,6 +1,6 @@
 {
-  "$schema": "./schema/registry-v1.schema.json",
-  "schema_version": 1,
+  "$schema": "./schema/registry-v2.schema.json",
+  "schema_version": 2,
   "mods": [
     {
       "id": "businesses",
@@ -8,26 +8,12 @@
       "author": "Dekode1859",
       "summary": "View business deposits and countdowns from your phone.",
       "repository": "https://github.com/schedule-one-mods/schedule-one-business-app",
-      "version": "0.1.4",
       "package_name": "Businesses",
-      "download_url": "https://github.com/schedule-one-mods/schedule-one-business-app/releases/download/v0.1.4/Businesses-0.1.4-IL2CPP.zip",
-      "sha256": "484442d3ee1ed6ffd5f5dae771de59babfd5ef56d33ec3ed813152755ee928a0",
-      "size_bytes": 24695,
-      "compatibility": {
-        "game": "Schedule I",
-        "game_versions_tested": [
-          "0.4.7f5"
-        ],
-        "scripting_backend": "IL2CPP",
-        "platforms_tested": [
-          "Windows x64"
-        ],
-        "loader": {
-          "name": "MelonLoader",
-          "versions_tested": [
-            "0.7.3"
-          ]
-        }
+      "release_source": {
+        "type": "github_releases",
+        "latest": "github_latest",
+        "compatibility_path": "packaging/compatibility.json",
+        "asset_name": "{package_name}-{version}-{backend}.zip"
       }
     },
     {
@@ -36,26 +22,12 @@
       "author": "Dekode1859",
       "summary": "Choose phone deal locations on the native map, with four bookings per destination per game day. Single-player.",
       "repository": "https://github.com/schedule-one-mods/schedule-one-deal-locations",
-      "version": "0.1.4",
       "package_name": "DealLocations",
-      "download_url": "https://github.com/schedule-one-mods/schedule-one-deal-locations/releases/download/v0.1.4/DealLocations-0.1.4-IL2CPP.zip",
-      "sha256": "61f6b6e416eb0811792519bc2894a6aecf8a26e41405dbf9d009d65649b6b264",
-      "size_bytes": 23794,
-      "compatibility": {
-        "game": "Schedule I",
-        "game_versions_tested": [
-          "0.4.7f5"
-        ],
-        "scripting_backend": "IL2CPP",
-        "platforms_tested": [
-          "Windows x64"
-        ],
-        "loader": {
-          "name": "MelonLoader",
-          "versions_tested": [
-            "0.7.3"
-          ]
-        }
+      "release_source": {
+        "type": "github_releases",
+        "latest": "github_latest",
+        "compatibility_path": "packaging/compatibility.json",
+        "asset_name": "{package_name}-{version}-{backend}.zip"
       }
     },
     {
@@ -64,26 +36,12 @@
       "author": "Dekode1859",
       "summary": "Program four mixing stations with native employee routes and ingredient filters. Output to storage, packaging stations or a brick press.",
       "repository": "https://github.com/schedule-one-mods/schedule-one-special-mixing-terminal",
-      "version": "0.5.3",
       "package_name": "SpecialMixingTerminal",
-      "download_url": "https://github.com/schedule-one-mods/schedule-one-special-mixing-terminal/releases/download/v0.5.3/SpecialMixingTerminal-0.5.3-IL2CPP.zip",
-      "sha256": "40f082989908f891bd0638fca8b42b1fd45272a9b6eda9bc24ecb75a71aea1df",
-      "size_bytes": 73637,
-      "compatibility": {
-        "game": "Schedule I",
-        "game_versions_tested": [
-          "0.4.7f5"
-        ],
-        "scripting_backend": "IL2CPP",
-        "platforms_tested": [
-          "Windows x64"
-        ],
-        "loader": {
-          "name": "MelonLoader",
-          "versions_tested": [
-            "0.7.3"
-          ]
-        }
+      "release_source": {
+        "type": "github_releases",
+        "latest": "github_latest",
+        "compatibility_path": "packaging/compatibility.json",
+        "asset_name": "{package_name}-{version}-{backend}.zip"
       }
     }
   ]
